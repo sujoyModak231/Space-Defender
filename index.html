@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced Neon Space Defender</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="gameContainer">
+        <div id="stars"></div>
+        <canvas id="gameCanvas"></canvas>
+        <div id="ui">
+            <div>Score: <span id="score">0</span></div>
+            <div>Level: <span id="level">1</span></div>
+            <div>Lives: <span id="lives">3</span></div>
+        </div>
+        <div id="gameOver">
+            <div>GAME OVER</div>
+            <div style="font-size: 28px; margin-top: 20px;">Press SPACE to restart</div>
+        </div>
+        <div id="instructions">
+            Use ARROW KEYS to move • SPACE to shoot • Destroy the invaders!
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
